@@ -10,7 +10,7 @@ info :
 window :
  name : FEN_Vidéos
  identifier : 0x24eb68a9014bb538
- internal_properties : CAAAAAgAAACo6dHh7y5AvsFo79jtygXhrUkneLpCwHIxJI/vvPFR5wrg+NNdmzB+WWWglTXu5CCA6fKY9i5Y3I4WVJ4NrgtC15RKcce2ynsvRZOxYxaK/1Y8qYxBmB+4YiMUWsfZetZHTAd64L/6DSHqCKk8QYICqy3NI+Hduo4iI6y+KdY50kMlLekBFT8jm6qFf2WjbvXyr2ACkJB2GqS+b+vNoEny7IbzEIC94r4Tx094fr+1oWNYR67waiq0krBZoi+Bm0VeIUv9qNsfCjaQH2ltBr/8O9P4Gj/mBLeIzh+uSMnnzhTdcLP7OjQVKYHROfaKhpB6WbnvBp7ig/g0MgsU9GqQ5f+vaQNbbjNujsJmp0i4IsCcqx+zUB7EI35OGP/svrkZPeTCF0j+LZCf4qCy3xXalZSVXYnER4ZpcujSVNrDb4wNjkLe4cjtTjs0ls9uJr/43M5aHd+NwX/jeoK1XPzXTDVKVzU9XJb0G5zzKr3asgsYWVkRxkvyhRH31hWZh4+5lXZflN/lOWFLGGR8zVRKUIjlTU2mz8ohOAnxNXq+Z7mCYzWah5wic8YoK9I9oUbbz6e26YW2uZkOY44hjZJU819g8m9jblA4qwgToL/7WLPiGuf+hqtaU0IhNBl9YymosSQ3Tgf3mowG9znHbUMD7EUaldBJ4RD4W84CO5w=
+ internal_properties : CAAAAAgAAAA/wDwzCtvFjDAlyYypTu/ibUwMnwI9AnVO8EC8FTFLwWN+Jgbh69+Hoad/wTdkrxEu8uJ1hgZDARoKARif6qq0Xz2wQvWjgHJsCYZ347UcrbW/hXBqOhrOexwqK8pJ2SWTr6YoHX/tr/HLJlODnkwiGSkocBEDD1ogx9JJi5wyiaS///zOqOJX2JlRhrpJBXlvumQj/zkTRpXiUBp2vyTIhyWaOSJtvaUUkKxmP7C03n4hCMLHMYblvvS5ZMdV/gIBVtfnPIWKrfapspVXK1BKf6KAY7ZOAkS8XkjcI9Le24F6NHqxwp9Ixf6OLwnchMTl3fD8xsO/5QK4W6uYae/wkhJnL1PGAM1Nvia4F6RSMw/NXhv7Z2GPU3rg9mESz5KTVWU0Ge7ZS+udzbaiirTa1Ojtl7LpRGgcZJe0OLOmiRk9wrTnJDfDgR9dLKdH4wF5esBcZtganJuApH94NEqqTlVSmpdd0Q/kKlhvwFgXCiWdctY5sD29nVhh0T5dr7y5Yof135x2uWSNdzQrdcPCvnC4MRqRkbNTT8VBzqG7Di7J4Ci9uR40bX/t3kG9nprV6CMRkNU7rLlF2H1+gnnkdQ8qwQdQUS6NNkUUX0VLwEhWmmITWsMwtHgHlHckVGqOeBVdbIeMPBn5bdiPNAdOeh6y2SfdjJdpI0HnNDhG
  properties :
   width : 800
   height : 600
@@ -60,6 +60,27 @@ window :
         type : 2
        code_elements :
         internal_properties : CAAAAAgAAACYso5Q5AgvgzvQj4OCf9iDHpdcDqLcjasF/a3wnD7+fP/nM95SlJSdD3AgokemKhI/QnJ719b3jZnKWGGwvaVm84zETzpkUNIbfDcAE0JqWGoXGw==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_description
+       identifier : 0x250dc03a091e5572
+       internal_properties : CAAAAAgAAAAm43tceYNOUHG8n1INI79ZVdipwpcT6TOOutwHr+s4rrZOvd2I5KNRNbF4Ldn7q6yWtPdvvp4jKUkstQQbuo64PjnACaaA9DF6SujfXMg50NOFbII5R2Kw0JBpjNcz2r4aXoHpuKV55HSM8BC/0JZBC9izQLmcfAgVltvNgICSDsAGMMQyg3GdDAX0rX1xJmVNIwckX/la3OAAsHnbMBzLq/T+DPXBwmgKQ/2sfSQejRthlk0/IGuMLAcf
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAACLXixGa0Izc9GLf1xYcbL8DkbvXw1qn4OmrPlKS2fmuL9CNumfJlQ4bsrSR07pXml3xyCeIxmUFhq8Fd9uSBOUBG3f7jSbPuUnCvVvgCL2Meo9p7Z8j7zhevwHJVT33OLkqTOGLbCGaP3BRYAAq2sQbsIMf0BtUl9XjvaPMpPlpH8N+r+V8q3+H97HHf62h+WdI7Q7F6qbVi9JhvOjjmUxM/kJq59G8DQL1K9Q3E/N9q0Y7Tb1N6Z+RwtP8/I7W0mh7OBFZHm/zHS+M8vn5f2fc2vlcl0sIoB8+STI5sLbk8rqOmrWJmTuidXwz0xMLmR4tScMQw7WbleFWXiJfJbujB5VruazNnEYe/SzQLx9XxH4/2nJr64HLh6Ao305NB8qy/LszL5c6IrPV0IdxfQG5C5UzWrzwH12sgbg5syPJT4njzltRzDChnEFFny6eLTfEHnsPDuyGp1egKQlkZH288sy7cpTpqpb0afMljZiI2W+B0uZwOuTkzgUnx/GoOSDJrjWO+0kt/8U1pf4sGo0Kc3s2Pb2TrBCi8Y1iQM/OVpXuH6WBrqEPucI87ZnF14LAUmoVwx+oX6mjTonwfPx1qC1qhtnS6uFkET73/fL1Qs+vmCZmXtX8LRCMnd12Fyq90yfdb8YqezJYoP8bFK/AwErSGif6PfA3Nif7paG4iuNUnqp5nDGWYrHv12JIs8U3sjzT2iDurIOX1KX4dggdY/gNvh99vctFa9dowCn4yNPqpWdSWHQCeLW7YLfWnfgjPJchvovAzBky5rD6QpU0OyNYTNFG18DI6o5FuD5/wymVu/J+4kzNx7dhLb2JqgZw2ZR
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAAnlwLAQ2ShvB0C9k9f9ELh8AIKj4q3pPaU8+60kcSdBEhME0UN7kysYjQMwF2DgRPINZz5jSP6NA4XVWzTTeMqSbeIUWB5yAq7IKb1b5uS1+SabELA2R/1/w==
         type_code : 3
         p_codes :
          -
@@ -179,6 +200,7 @@ window :
                 ////], clData.VersJSON())
                 ////
                 ////Liste()
+                TABLE_Vidéos
                 SourceVersEcran(FEN_Vidéos)
                 AnimationPrépare(MaFenêtre)
                 MaFenêtre..Plan = 2
@@ -491,12 +513,9 @@ window :
          sFiltre=ChaîneConstruit(sFiltre,gtabData[TableSelect(TABLE_Vidéos)]._id)
          
          // AJout
-         Si pas COL_db.gDBVideosCol.ModifieUn(sFiltre,sData) ALORS
-         	Erreur(ErreurInfo(errMessage))
-         	RepriseSaisie(SAI_Name)
-         FIN
+         soit res = COL_db.gDBVideosCol.ModifieUn(sFiltre,sData,mongoRenvoieValeurAprès) 
          
-         ToastAffiche("Vidéo modifie avec succès")
+         ToastAffiche("Vidéo modifie avec succès"+res)
          
          UI_Acceuil()
          gtabData = DB_Videos.Liste()
