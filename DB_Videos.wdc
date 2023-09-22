@@ -133,6 +133,40 @@ class :
       
       RENVOYER sData
      type : 458752
+   -
+     name : charge
+     procedure_id : 1517082603297346222
+     type_code : 12
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //[ <Résultat> = ] charge (<id> est chaîne)
+      //
+      // Paramètres :
+      //	id (chaîne ANSI) : <indiquez ici le rôle de id>
+      // Valeur de retour :
+      // 	booléen : <indiquez ici le rôle de la valeur de retour>
+      //
+      // Exemple :
+      // <Indiquez ici un exemple d'utilisation>
+      //
+      procédure charge(id est chaine) : booléen
+      bRésultat est une booléen = Vrai
+      soit sFiltre = "{ ""_id"": ""%1"" }"
+      sFiltre=ChaîneConstruit(sFiltre,id)
+      soit MaRecherche = MongoCherche(COL_db.gDBVideosCol, sFiltre)
+      
+      POUR TOUT item de MaRecherche
+      	
+      	SI :DepuisJSON(item) = ""
+      
+      	FIN
+      FIN
+      
+      
+      
+      renvoyer bRésultat
+     type : 458752
   procedure_templates : []
   property_templates : []
  code_parameters :
